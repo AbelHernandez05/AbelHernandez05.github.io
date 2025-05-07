@@ -1,0 +1,23 @@
+/* Esto es para el carrusel de imagenes */
+
+.c-item{
+    height: 480px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.cua{
+
+    width: 520px;
+    height: auto;
+    border: 2px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo negro con opacidad de 0.2 */
+    border-radius: 8px; /* Bordes redondeados (opcional) */
+}
