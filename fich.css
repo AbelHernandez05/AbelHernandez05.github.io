@@ -1,0 +1,123 @@
+
+
+.imagenes { /*Para que todas las imagenes con esa clase tengan esos atributos*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+  #titulo{ /*El texto tenga esa fuente*/
+ text-align: center;
+ font-family:'Poppins', sans-serif ;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.containerp{  /* Usado para crear las celdas donde poner EVENTOS Y FIESTAS ADEMAS DE LOS ENLACES  */
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; /* Ajustar el padding  */
+    border: 2px solid #000; /* Borde de color negro */
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo negro con opacidad de 0.7 */
+    border-radius: 8px; /* Bordes redondeados  */
+    font-size: 20px;
+}
+
+.contenedor-dos-recuadros { /* Usado para crear las celdas donde poner EVENTOS Y FIESTAS ADEMAS DE LOS ENLACES  */
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* espacio entre los recuadros */
+    margin-top: 40px;
+}
+
+.recuadro p{ /* Margen especifico de lo p de recuadro*/
+    margin-bottom: 10px;
+}
+
+.recuadro { /* Cuadro opaco donde pongo eventos y fiestas   */
+    width: 520px;
+    height: auto;
+    border: 2px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo negro con opacidad de 0.2 */
+    border-radius: 8px; /* Bordes redondeados (opcional) */
+
+
+    display: flex;
+    flex-direction: column; /* centro horizontal */
+    justify-content: flex-start;
+    align-items: flex-start;     /* centro vertical */
+    text-align: left;  
+}
+
+.cua{ /* uso del link home que repito en todos los enlaces */
+
+    width: 520px;
+    height: auto;
+    border: 2px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo negro con opacidad de 0.7 */
+    border-radius: 8px; /* Bordes redondeados*/
+}
+
+
+/*Página del formulario con Bootstrap*/
+
+.fondo {
+    background-image: url("media/paisaje.jpg");
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.contenedor-recuadro {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+.recuadro-opaco {
+    background-color: rgba(255, 255, 255, 0.8); /* Blanco con opacidad */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  /* Fondo negro para página Historia */
+.overlay-box {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con opacidad */
+    border-radius: 10px;
+}
+
+/*Título de página historia */
+header h1 {
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+    color: #f8d36e; /* Amarillo suave */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
