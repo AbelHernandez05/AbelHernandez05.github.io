@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fich.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUSCRÍBETE</title>
+    <!--El formulario ES DE BOOTSTRAP-->
+</head> <!--Aqui abajo defino el formulario que usara un script para que en funcion de la edad que tenga salga un mensaje u otro-->
+<body class="fondo">
+  <p><a href="index.html" class="cua">HOME</a></p>
+  <div class="contenedor-recuadro">
+    <div class="recuadro-opaco">
+      <h2>Suscríbete a nuestra newsletter</h2>
+      <form id="formulario">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu correo electronico">
+        </div>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Introduce tu nombre">
+        </div>
+        <div class="mb-3">
+          <label for="edad" class="form-label">Edad</label>
+          <input type="number" class="form-control" id="edad" placeholder="Introduce tu edad">
+        </div>
+        <button class="btn btn-primary">Enviar</button>
+      </form>
+      <div id="mensaje" class="mt-4 alert alert-info d-none"></div>
+
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
